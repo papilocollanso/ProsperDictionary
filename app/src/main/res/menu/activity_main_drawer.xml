@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/dictionary"
+            android:title="@string/dictionary" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/create_your_dictionary"
+            android:title="@string/create_your_dictionary" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/favourite"
+            android:title="@string/favourite" />
+    </group>
+    <item android:title="@string/get_in_touch"
+        android:id="@+id/get_in_touch">
+        <menu>
+            <item
+                android:id="@+id/nav_Rate"
+                android:icon="@drawable/rate"
+                android:title="@string/rate" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share"
+                android:title="@string/share" />
+
+
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/contactme"
+                android:title="@string/feedback" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/about"
+                android:title="@string/about" />
+        </menu>
+    </item>
+
+</menu>
